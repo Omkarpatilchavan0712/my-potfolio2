@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Services</title>
+</head>
+<body>
+
+    <section class="services-section"
+    style="background-color:#00bcd4
+    color: #333;
+    line-height: 1.6;">
+        <h2 class="section-title">My Services</h2>
+        <div class="services-container">
+
+            <div class="service-card">
+                <div class="icon">💻</div>
+                <h3>Web Development</h3>
+                <p>I create responsive and high-performing websites using HTML, CSS, JavaScript, and modern frameworks.</p>
+            </div>
+
+            <div class="service-card">
+                <div class="icon">🎨</div>
+                <h3>UI/UX Design</h3>
+                <p>I design intuitive user interfaces with a focus on user experience and accessibility.</p>
+            </div>
+
+            <div class="service-card">
+                <div class="icon">⚙️</div>
+                <h3>SEO Optimization</h3>
+                <p>I optimize websites for better ranking and performance on search engines like Google.</p>
+            </div>
+
+        </div>
+    </section>
+
+</body>
+</html>
+<style>
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+}
+
+/* Background and Layout */
+body {
+    background-color: #f4f6f8;
+    color: #333;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.services-section {
+    background-color: #1e1e2f; /* Dark background */
+    color: #fff;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.section-title {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+    color: #00bcd4;
+}
+
+/* Services Grid */
+.services-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+/* Individual Card */
+.service-card {
+    background-color: #2e2e42;
+    border-radius: 10px;
+    padding: 30px;
+    width: 300px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.service-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 25px rgba(0, 188, 212, 0.3);
+}
+
+.icon {
+    font-size: 3rem;
+    margin-bottom: 15px;
+}
+
+h3 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+    color: #00bcd4;
+}
+
+p {
+    font-size: 1rem;
+    color: #ccc;
+}
+</style>
